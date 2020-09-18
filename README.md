@@ -23,52 +23,16 @@ Run in your command line:
 Where x and y are the dimensions of the grid and the name of the file refers to which piece is being packed.
 ## Results
 Given a n x n grid, the maximum has been found for the first few integers:
-### Rooks
-| Integer | Maximum Number of Rooks |
-|---------|------------------------:|
-| 1       |                       1 |
-| 2       |                       4 |
-| 3       |                       8 |
-| 4       |                      13 |
-| 5       |                      21 |
-| 6       |                      28 |
-| 7       |                      37 |
-| 8       |                      50 |
-### Knights
-| Integer | Maximum Number of Knights |
-|---------|--------------------------:|
-| 1       |                         1 |
-| 2       |                         4 |
-| 3       |                         9 |
-| 4       |                        16 |
-| 5       |                        24 |
-| 6       |                        34 |
-| 7       |                        44 |
-| 8       |                        58 |
-| 9       |                        73 |
-| 10      |                        91 |
-### Bishops
-| Integer | Maximum Number of Bishops |
-|---------|--------------------------:|
-| 1       |                         1 |
-| 2       |                         4 |
-| 3       |                         8 |
-| 4       |                        12 |
-| 5       |                        19 |
-| 6       |                        28 |
-| 7       |                        37 |
-| 8       |                        48 |
-| 9       |                        57 |
-| 10      |                        72 |
-| 11      |                        87 |
-### Queens
-| Integer | Maximum Number of Queens |
-|---------|-------------------------:|
-| 1       |                        1 |
-| 2       |                        4 |
-| 3       |                        8 |
-| 4       |                       14 |
-| 5       |                       22 |
-| 6       |                       31 |
-| 7       |                       42 |
-| 8       |                       54 |
+| Integer | Rooks | Knights | Bishops | Queens |
+|---------|------:|--------:|--------:|-------:|
+| 1       |     1 |       1 |       1 |      1 |
+| 2       |     4 |       4 |       4 |      4 |
+| 3       |     8 |       9 |       8 |      8 |
+| 4       |    13 |      16 |      12 |     14 |
+| 5       |    21 |      24 |      19 |     22 |
+| 6       |    28 |      34 |      28 |     31 |
+| 7       |    37 |      44 |      37 |     42 |
+| 8       |    50 |      58 |      48 |     54 |
+| 9       |       |      73 |      57 |        |
+| 10      |       |      91 |      72 |        |
+| 11      |       |         |      87 |        |
