@@ -36,3 +36,6 @@ Given a n x n grid, the maximum has been found for the first few integers:
 | 9       |       |      73 |      57 |        |
 | 10      |       |      91 |      72 |        |
 | 11      |       |         |      87 |        |
+## TODO
+- Look for symmetry breaking features or structures to exploit to reduce search space
+- Run on more computational power to generate more entries

@@ -1,8 +1,15 @@
 %Defining possible states of each of the queen space
 occupied(t; f).
 
+%Fill three sides of the board with queens
+%Reduces number of models to search
+%TODO: Prove this is optimal
+%queen(X, Y, t) :- X=1..x, Y=1.
+%queen(X, Y, t) :- X=1, Y=1..y.
+%queen(X, Y, t) :- X=x, Y=1..y.
+
 %Generate all possible grids
-{queen(X, Y, D) : occupied(D)} = 1 :- X=1..x, Y=1..y.
+{queen(X, Y, D) : occupied(D)} = 1 :- X=2..x-1, Y=2..y.
 
 %Bound the grid with empty space
 queen(X, Y, f) :- X=0, Y=1..y.

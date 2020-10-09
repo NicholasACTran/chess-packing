@@ -1,8 +1,14 @@
 %Defining possible states of each of the rook space
 occupied(t; f).
 
+%Fill two sides of the board with rooks
+%Reduces number of models to search
+%TODO: Prove this
+%rook(X, Y, t) :- X=1..x, Y=1.
+%rook(X, Y, t) :- X=1, Y=1..y.
+
 %Generate all possible grids
-{rook(X, Y, D) : occupied(D)} = 1 :- X=1..x, Y=1..y.
+{rook(X, Y, D) : occupied(D)} = 1 :- X=2..x, Y=2..y.
 
 %Bound the grid with empty space
 rook(X, Y, f) :- X=0, Y=1..y.
