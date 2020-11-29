@@ -28,16 +28,17 @@ Where x and y are the dimensions of the grid and the name of the file refers to 
 Given a n x n grid, the maximum has been found for the first few integers:
 | Integer | Rooks | Knights | Bishops | Queens |
 |---------|------:|--------:|--------:|-------:|
-| 1       |     1 |       1 |       1 |      0 |
-| 2       |     4 |       4 |       4 |      0 |
-| 3       |     8 |       9 |       8 |      2 |
-| 4       |    13 |      16 |      12 |      6 |
-| 5       |    21 |      24 |      19 |     12 |
-| 6       |    28 |      34 |      28 |     20 |
-| 7       |    37 |      44 |      37 |     30 |
-| 8       |    50 |      58 |      48 |     42 |
-| 9       |       |      73 |      57 |     56 |
-| 10      |       |      91 |      72 |     72 |
-| 11      |       |         |      87 |     90 |
+| 1       |       |       0 |         |      0 |
+| 2       |       |       3 |         |      0 |
+| 3       |       |       8 |         |      2 |
+| 4       |       |      13 |         |      6 |
+| 5       |       |      22 |         |     12 |
+| 6       |       |      33 |         |     20 |
+| 7       |       |      46 |         |     30 |
+| 8       |       |      61 |         |     42 |
+| 9       |       |      78 |         |     56 |
+| 10      |       |      97 |         |     72 |
+| 11      |       |     118 |         |     90 |
 ## OEIS Entries
 Queens: [A002378](https://oeis.org/A002378)
+Knights: [A339305](https://oeis.org/A339305)
