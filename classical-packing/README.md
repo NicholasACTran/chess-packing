@@ -44,3 +44,4 @@ Queens (To Be Confirmed): [A054347](https://oeis.org/A054347)
 ## TODO
 - Look for symmetry breaking features or structures to exploit to reduce search space
 - Run on more computational power to generate more entries
+- Confirm equivalency or non-equivalency of Queens sequence with A054347

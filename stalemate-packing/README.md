@@ -28,17 +28,22 @@ Where x and y are the dimensions of the grid and the name of the file refers to 
 Given a n x n grid, the maximum has been found for the first few integers:
 | Integer | Rooks | Knights | Bishops | Queens |
 |---------|------:|--------:|--------:|-------:|
-| 1       |       |       0 |         |      0 |
-| 2       |       |       3 |         |      0 |
-| 3       |       |       8 |         |      2 |
-| 4       |       |      13 |         |      6 |
-| 5       |       |      22 |         |     12 |
-| 6       |       |      33 |         |     20 |
-| 7       |       |      46 |         |     30 |
-| 8       |       |      61 |         |     42 |
-| 9       |       |      78 |         |     56 |
-| 10      |       |      97 |         |     72 |
-| 11      |       |     118 |         |     90 |
+| 1       |     0 |       0 |       0 |      0 |
+| 2       |     1 |       3 |       2 |      0 |
+| 3       |     4 |       8 |       6 |      2 |
+| 4       |     9 |      13 |      12 |      6 |
+| 5       |    16 |      22 |      20 |     12 |
+| 6       |    25 |      33 |      30 |     20 |
+| 7       |    36 |      46 |      42 |     30 |
+| 8       |    49 |      61 |      56 |     42 |
+| 9       |    64 |      78 |      72 |     56 |
+| 10      |    81 |      97 |      90 |     72 |
+| 11      |   100 |     118 |     110 |     90 |
 ## OEIS Entries
 Queens: [A002378](https://oeis.org/A002378)
 Knights: [A339305](https://oeis.org/A339305)
+Bishops: TBD
+Rooks: TBD
+## TODO
+* Prove equivalence or non-equivalence of Bishops and Queens sequences
+* Prove equivalence of rooks sequence with (n-1)<sup>2</sup>
